@@ -10,22 +10,9 @@ input[type=text], input[type=password] {
 }
 
 
-button {
-  color: #98AF99;
-  border-color: #98af99;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border-radius: 8px;
-  border-width: 8px;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
 
 
-button:hover {
-  opacity: 1;
-}
+
 
 .cancelar {
   width: auto;
@@ -51,20 +38,6 @@ span.novousuario {
   }
 
 
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
 
 .cancelbtn {
   padding: 14px 20px;
@@ -77,9 +50,7 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 
-.container {
-  padding: 16px;
-}
+
 
 
 .modal {
@@ -95,12 +66,7 @@ input[type=text]:focus, input[type=password]:focus {
   padding-top: 50px;
 }
 
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; 
-  border: 1px solid #a4bbf8;
-  width: 80%; 
-}
+
 
 hr {
   border: 1px solid #f1f1f1;
@@ -133,3 +99,46 @@ hr {
      width: 100%;
   }
 }
+
+body {
+  background-image: url('pergaminho-textura.jpg'); /* Textura de fundo medieval */
+  background-size: cover;
+  font-family: 'MedievalSharp', serif; /* Fonte temática */
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #d4af37; /* Dourado medieval */
+}
+
+input[type=text], input[type=password] {
+  background-color: #4a4a4a; /* Fundo de campo mais escuro */
+  border: 2px solid #d4af37; /* Borda dourada */
+  color: #fff;
+}
+
+button {
+  background-color: #d4af37; /* Dourado para os botões */
+  color: #fff;
+  border: 2px solid #a52a2a; /* Borda vermelha, simbolizando força */
+}
+
+button:hover {
+  background-color: #a52a2a; /* Muda para vermelho ao passar o mouse */
+  color: #fff;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8); /* Transparência leve no container */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 5px #000;
+}
+
+.modal-content {
+  background-color: #2b2b2b;
+  border: 3px solid #d4af37; /* Borda dourada */
+}
+
